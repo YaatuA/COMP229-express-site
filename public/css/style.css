@@ -35,6 +35,18 @@
     margin: auto;
 }
 
+.jumbotron form {
+    margin-top: 3rem;
+}
+
+.container.contact .jumbotron{
+    width: 50%;
+}
+
+input {
+    min-width: 100%
+}
+
 .h1,
 .h2,
 .h3,
