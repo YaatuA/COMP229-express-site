@@ -92,5 +92,31 @@ h6 {
 
 footer {
     padding: 0px !important;
+    margin-top: 3rem !important;
+}
+
+.container.aboutDiv {
+    width: 100%;
+    justify-items: center;
+}
+.aboutDiv .jumbotron{
+    width: 100%;
+    margin: 0px;
+    padding: 2rem;
+    justify-items: center;
+}
+
+@media (min-width:576px) {
+    .aboutDiv {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .aboutDiv {
+        display: flex;
+        width: auto;
+    }
 }
 
