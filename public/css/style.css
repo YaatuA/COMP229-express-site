@@ -130,5 +130,23 @@ footer {
         display: flex;
         width: auto;
     }
+
+    .split {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .split img {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .split div {
+        padding: 1rem;
+    }
 }
+
 
